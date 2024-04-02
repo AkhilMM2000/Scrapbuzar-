@@ -1,0 +1,512 @@
+*{
+    margin: 0;
+    padding: 0px;
+  
+
+ }
+
+.header{
+    width: 100%;
+    height: 80px;
+    /* margin: auto; */
+    
+    
+}
+.icon{
+    width:200px ;
+    float: left;
+    height: 70px;
+
+}
+
+.icon img{
+    padding-left:300px;
+    float: left;
+   height: 90px;
+   width: 200px;
+   cursor:pointer;
+}
+.menu{
+   width: 400px; 
+   float: left;
+   height: 70px;
+
+}
+ul,menu{
+  float:left;
+  display: flex;  
+  justify-content: center;
+  align-items: center;
+margin-left: 500px;
+
+}
+ul li{
+    list-style: none;
+    margin-left: 20px;
+    margin-top: 30px;
+    font-size: 14px;
+  
+}
+ul li a{
+    text-decoration:none ;
+    color: black;
+    font-family:arial ;
+    font-weight:bold ;
+    font-size:19px ;
+    font-weight: 560;
+
+}
+
+body{
+    text-align: center;
+    margin-top: 20px;
+   
+    height: 325vh;
+    overflow-x: hidden; 
+
+}
+.button{
+    display: inline-block;
+    padding: 1rem 2rem;
+    border-radius: 1000px;
+    background-color:#56ad38;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 500;
+   
+   letter-spacing: 0.1rem;
+   text-decoration: none;
+   text-transform: uppercase;
+   transition: all 0.8s;
+   position: relative;
+   overflow: hidden;
+   z-index: 1;
+   size: 1000px;
+   width: 240px;
+   margin-left: 15px;
+ margin-top: 20px;
+}
+
+.button::after{
+    content:"";
+    position:absolute;
+    left:0;
+    top: 0;
+   height: 100%;
+    width: 100%;
+   background-color: black;
+    z-index: -1;
+    border-radius: 1000px;
+    transition: 0.5s ease all;
+    transform: scale(0,1);
+    transform-origin: top right;
+
+
+}
+ .button:hover::after{
+    transform: scale(1,1);
+    transform-origin: top left;
+
+ }
+ .leftsection{
+    width: 50%;
+    float: left;
+    margin-top: 10px;
+  
+   
+ }
+ .rightsection{
+    width: 50%;
+    float: right;
+    margin-top: 10px;
+   
+ }
+.para{
+    margin-top: 100px;
+    font: size 30px; ;
+
+}
+.para1{
+    color:#56ad38 ;
+    font-size: 30px;
+}
+.playstore{
+    margin-left: 100px;
+    size: 25px;
+    width: 170px;
+    height: 170px;
+    cursor: pointer;
+}
+.applestore{
+    margin-left: 0px;
+    size: 20px;
+    width: 170px;
+    height: 170px;
+    cursor: pointer;
+}
+.about{
+    margin-top: 200px;
+    color: #56ad38;
+    font-size: 21px;
+    font-weight: 500;
+  
+}
+.welcome{
+    position: relative;
+    color: #000000;
+    font-size: 50px;
+    font-weight: 700px;
+    margin-top: 15px;
+    line-height: 1.3em;
+    font-family: 'ubuntu',sans-serif;
+}
+.leftsection>.button{
+    margin-right: 305px;
+}
+.rightsection iframe{
+    margin-top: 250px;
+    margin-right: 94px;
+    position: relative;
+}
+.text{
+    text-align: justify;
+}
+.text{
+    position: relative;
+    color: #807f81;
+    font-size: 16px;
+    line-height: 1.8em;
+    margin-bottom: 20px;
+    margin-left: 70px;
+}
+.bazar{
+   margin-right: 100px; 
+}
+.secondcenter{
+width: 100%;
+height: 1000px;
+
+position: relative;
+padding-inline: 102px;
+
+}
+.why{
+ 
+ margin-right: 764px;
+font-size: 50px;
+font-family:'Ubuntu', sans-serif;
+
+ 
+}
+.more{
+    padding-right:94px;
+    color: #56ad38;
+    font-size: 16px;
+    font-family: sans-serif;
+    line-height: 1.3em;
+
+}
+.environimage{
+    width: 240px;
+    height: 146px;
+    margin-top: 60px;
+    margin-right: 1200px;
+    margin-bottom: 10px;
+
+}
+.environh{
+    margin-left: -1208px;
+    padding:7px;
+    font-size: 20px;
+    font-weight: 100;
+    color: #56ad38;
+    cursor: pointer;
+}
+.Accurate{
+    margin-left: -564px;
+    padding:7px;
+    font-size: 20px;
+    font-weight: 100;
+    color: #56ad38;
+   cursor: pointer;
+    margin-top: -165px;
+}
+.weight{
+    width: 245px;
+    height: 146px;
+    margin-right: 600px;
+    margin-top: -812px;
+    margin-bottom:165px ;
+    padding-left: 21px;
+    
+}
+
+.first{
+    display: flex;
+    flex-direction: column;
+    margin-left: -1200px;
+    margin-top: 10px;
+    position: relative;
+    font-weight: 400;
+    font-size:16px;
+    font-family: 'ubuntu'sans-serif;
+    color: #000000;
+}
+.second{
+    display: flex;
+    flex-direction: column;
+    margin-left: -587px;
+    margin-top: 10px;
+    position: relative;
+    font-weight: 400;
+    font-size:16px;
+    font-family: 'ubuntu'sans-serif;
+    color: #000000;
+
+}
+.secondcenter h3{
+    color:#56ad38;
+    cursor: pointer;
+}
+.thirdpic{
+    width: 263px;
+    height: 146px;
+    margin-right: 538px;
+    margin-top: -589px;
+    margin-bottom:141px ;
+    padding-left: 609px;
+}
+.minimum{
+   
+        margin-left: 83px;
+        padding:7px;
+        font-size: 20px;
+        font-weight: 100;
+        color: #56ad38;
+       cursor: pointer;
+        margin-top: -146px;
+    
+}
+.third{
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+    margin-top: 10px;
+    position: relative;
+    font-weight: 400;
+    font-size:16px;
+    font-family: 'ubuntu'sans-serif;
+    color: #000000;
+}
+.fourthpic{
+    width: 263px;
+    height: 146px;
+    margin-right: -118px;
+    margin-top: -556px;
+    margin-bottom:161px ;
+    padding-left: 609px;
+ 
+}
+.Competitive{
+ margin-left: 708px;
+    padding:7px;
+    font-size: 20px;
+    font-weight: 100;
+    color: #56ad38;
+   cursor: pointer;
+    margin-top: -140px;
+}
+.fourth{
+    display: flex;
+    flex-direction: column;
+    margin-left: 709px;
+    margin-top: 10px;
+    position: relative;
+    font-weight: 400;
+    font-size:16px;
+    font-family: 'ubuntu'sans-serif;
+    color: #000000;
+}
+.thirdcenter{
+    position: relative;
+    display: inline-flex;
+    /* padding: 100px 0px 100px; */
+    background-color: #f8f9fb;
+    height: 500px;
+    overflow: hidden;
+    margin-top: 600px;
+}
+.autocontainer{
+    text-align: center;
+    /* padding-top: 615px; */
+}
+.title{
+    text-align: center;
+position: relative;
+color: #000000;
+font-size: 50px;
+font-weight: 700px;
+line-height: 1.2em;
+font-family: 'ubuntu',sans-serif;
+}
+.text{
+    position: relative;
+    color: #807f81;
+    font-weight: 400;
+    line-height: 1.7em;
+    margin-top: 14px;
+    font-size: 20px;
+    font-family:'ubuntu',sans-serif;
+      text-align: center;
+}
+.threeimages{
+    display: flex;
+    margin-left: 145px;
+    size:10px ;
+    padding-right: 91px;
+height: 163px;
+justify-content: space-between;
+    
+}
+.footer {
+    background: #000;
+    min-height: 250px;
+    width: 100%;
+    display: flex;
+}
+.footer_content {
+    width: 50%;
+    min-height: 250px;
+    display: flex;
+    padding-left: 5%;
+    padding-top: 5%;
+}
+.footer_content1 {
+    width: 50%;
+    min-height: 250px;
+    display: flex;
+    padding-top: 5%;
+}
+.footer_content h2 {
+    color: #ffffff;
+}
+.footer_question {
+    width: 50%;
+    min-height: 250px;
+}
+.footer_question h2{
+    text-align: start;
+}
+.footer_links {
+    width: 50%;
+    min-height: 250px;
+}
+
+.footer_question_content {
+    color: #fff;
+    text-align: start;
+}
+.footer_question_p{
+    margin: 10px 0;
+}
+.footer_question_p.textq{
+    margin-left:5px;
+    color: #807f81;
+}
+.footer_question_p.textp{
+    margin-left:15px;
+}
+.footer_links h2 {
+    text-align: start;
+}
+.footer_link{
+    margin: 10px 0;
+    margin-left:5px;
+    color: #807f81;
+}
+.footer_link:hover{
+    color: #fff;
+    cursor: pointer;
+}
+.footer_help{
+    width: 30%;
+    min-height: 250px;
+}
+.footer_about{
+    width: 50%;
+    min-height: 250px;
+}
+.footer_social{
+    width: 20%;
+    min-height: 250px;
+}
+.div_footer_help{
+    padding-top: 20%;
+}
+.div_footer_help p{
+    text-align: start;
+}
+.div_footer_about{
+    padding: 3%;
+}
+.about_img{
+    height: 100px;
+}
+.div_footer_about p{
+    color: #f8f9fb;
+    text-align: justify;
+}
+.footer_input {
+    margin-top: 25px;
+    display: flex;
+}
+.footer_input input{
+    width: 90%;
+    min-height: 40px ;
+}
+.footer_input span{
+    background-color: #56ad38;
+    color: #fff;
+    min-height: 40px;
+    width: 10%;
+    align-items: center;
+    text-align: center;
+    display: grid;
+}
+.social_icons {
+    display: flex;
+    font-size: 20px;
+    margin-top: 5%;
+    color: #fff;
+    gap: 15px;
+}
+.footer_social {
+    padding-top: 20%;
+}
+.social_facebook {
+    margin-left: 30px;
+    min-height: 35px;
+    align-items: center;
+    display: grid;
+    background-color: blue;
+}
+.social_facebook i {
+    font-size: 25px;
+}
+.social_phone {
+    margin-left: 30px;
+    min-height: 35px;
+    align-items: center;
+    display: grid;
+    background-color: skyblue;
+}
+.social_phone i {
+    font-size: 25px;
+}
+.social_whatsapp {
+    margin-left: 30px;
+    min-height: 35px;
+    align-items: center;
+    display: grid;
+    background-color: green;
+}
